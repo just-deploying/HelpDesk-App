@@ -129,7 +129,7 @@ class SupabaseAuthManager extends AuthManager with EmailSignInManager {
   ) async {
     try {
       final user = await signInFunc();
-      final authUser = user == null ? null : Setiment2SupabaseUser(user);
+      final authUser = user == null ? null : TheExecutiveSupabaseUser(user);
 
       // Update currentUser here in case user info needs to be used immediately
       // after a user is signed in. This should be handled by the user stream,

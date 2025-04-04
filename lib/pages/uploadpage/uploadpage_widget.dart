@@ -444,7 +444,7 @@ class _UploadpageWidgetState extends State<UploadpageWidget> {
                         color: Colors.transparent,
                         width: 1.0,
                       ),
-                      borderRadius: BorderRadius.circular(30.0),
+                      borderRadius: BorderRadius.circular(24.0),
                     ),
                   ),
                 ),
