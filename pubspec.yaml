@@ -72,6 +72,7 @@ dependencies:
   postgrest: 2.1.4
   provider: 6.1.2
   realtime_client: 2.2.1
+  rxdart: 0.27.7
   shared_preferences: 2.3.2
   shared_preferences_android: 2.3.2
   shared_preferences_foundation: 2.5.2

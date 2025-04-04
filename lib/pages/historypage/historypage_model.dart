@@ -1,9 +1,9 @@
 import '/flutter_flow/flutter_flow_util.dart';
 import '/index.dart';
-import 'sample_widget.dart' show SampleWidget;
+import 'historypage_widget.dart' show HistorypageWidget;
 import 'package:flutter/material.dart';
 
-class SampleModel extends FlutterFlowModel<SampleWidget> {
+class HistorypageModel extends FlutterFlowModel<HistorypageWidget> {
   @override
   void initState(BuildContext context) {}
 

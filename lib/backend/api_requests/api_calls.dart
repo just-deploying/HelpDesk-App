@@ -17,8 +17,7 @@ class DeepGramAudioUrlCall {
 }''';
     return ApiManager.instance.makeApiCall(
       callName: 'DeepGram Audio Url',
-      apiUrl:
-          'https://api.deepgram.com/v1/listen?model=enhanced&detect_language=true',
+      apiUrl: 'https://api.deepgram.com/v1/listen?model=general',
       callType: ApiCallType.POST,
       headers: {
         'Authorization': 'Token c0842b2233c3841dd6f86c86bc3f05d570ea53a3',

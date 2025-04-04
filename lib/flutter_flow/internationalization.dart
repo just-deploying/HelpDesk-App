@@ -165,6 +165,16 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'hi': 'ऑडियो फ़ाइल चुनने के लिए टैप करें',
       'mr': 'ऑडिओ फाइल निवडण्यासाठी टॅप करा',
     },
+    '5ngzqkfu': {
+      'en': 'OR',
+      'hi': '',
+      'mr': '',
+    },
+    'wc8wl5sc': {
+      'en': 'View Call History',
+      'hi': '',
+      'mr': '',
+    },
     '89dyqhl5': {
       'en': 'Submit for Analysis',
       'hi': 'विश्लेषण के लिए सबमिट करें',
@@ -175,49 +185,28 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'hi': 'अपलोड करें',
       'mr': 'अपलोड करा',
     },
-  },
-  // sample
-  {
-    'us8enbc8': {
-      'en': 'Thank You!',
-      'hi': 'धन्यवाद!',
-      'mr': 'धन्यवाद!',
-    },
-    'aksct0s0': {
-      'en':
-          'Your submission has been received successfully. We appreciate your participation!',
-      'hi':
-          'आपकी प्रविष्टि सफलतापूर्वक प्राप्त हो गई है। हम आपकी भागीदारी की सराहना करते हैं!',
-      'mr':
-          'तुमचे सबमिशन यशस्वीरित्या प्राप्त झाले आहे. तुमच्या सहभागाबद्दल आम्ही आभारी आहोत!',
-    },
-    'ryi4pzv7': {
-      'en': 'Return to Home',
-      'hi': 'घर पर वापस',
-      'mr': 'घरी परत या',
-    },
-    'o6uwj9jg': {
-      'en': 'We\'ll be in touch soon!',
-      'hi': 'हम जल्द ही संपर्क में होंगे!',
-      'mr': 'आम्ही लवकरच संपर्क साधू!',
+    'l4rwv36s': {
+      'en': 'Logout',
+      'hi': '',
+      'mr': '',
     },
   },
   // analysispage
   {
-    'fhiysvzz': {
+    'l0xrt3ui': {
       'en': 'Call Analysis',
-      'hi': 'कॉल विश्लेषण',
-      'mr': 'कॉल विश्लेषण',
+      'hi': '',
+      'mr': '',
+    },
+    'zr0gla1t': {
+      'en': 'Logout',
+      'hi': '',
+      'mr': '',
     },
     'n3n60jfe': {
       'en': 'Call Transcript',
       'hi': 'कॉल ट्रांसक्रिप्ट',
       'mr': 'कॉल ट्रान्सक्रिप्ट',
-    },
-    'fsc4zxep': {
-      'en': 'View Full Transcript',
-      'hi': 'पूर्ण प्रतिलेख देखें',
-      'mr': 'पूर्ण ट्रान्सक्रिप्ट पहा',
     },
     'o3gl3088': {
       'en': 'Dominant Emotions',
@@ -225,6 +214,223 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'mr': 'प्रभावी भावना',
     },
     'l7ck68bd': {
+      'en': 'Executive Suggestions',
+      'hi': 'कार्यकारी सुझाव',
+      'mr': 'कार्यकारी सूचना',
+    },
+    'iq2zagfa': {
+      'en': 'Call History',
+      'hi': '',
+      'mr': '',
+    },
+  },
+  // loginpage
+  {
+    '4sy4u1r4': {
+      'en': 'Welcome Back',
+      'hi': '',
+      'mr': '',
+    },
+    '0apvg6kz': {
+      'en': 'Sign in to continue your journey',
+      'hi': '',
+      'mr': '',
+    },
+    '20e2izic': {
+      'en': 'Email',
+      'hi': '',
+      'mr': '',
+    },
+    'oviuif5z': {
+      'en': 'Password',
+      'hi': '',
+      'mr': '',
+    },
+    '815r17h8': {
+      'en': 'Forgot Password?',
+      'hi': '',
+      'mr': '',
+    },
+    'is7167ej': {
+      'en': 'Sign In',
+      'hi': '',
+      'mr': '',
+    },
+    'dtpm6o5t': {
+      'en': '....',
+      'hi': '',
+      'mr': '',
+    },
+  },
+  // CreateAccount3
+  {
+    'yz34rpq0': {
+      'en': 'brand.ai',
+      'hi': '',
+      'mr': '',
+    },
+    'v2r26rdw': {
+      'en': 'Get Started',
+      'hi': '',
+      'mr': '',
+    },
+    'f4s6ntad': {
+      'en': 'Let\'s get started by filling out the form below.',
+      'hi': '',
+      'mr': '',
+    },
+    '22dk5c7v': {
+      'en': 'Name',
+      'hi': '',
+      'mr': '',
+    },
+    '76htfoka': {
+      'en': 'Email',
+      'hi': '',
+      'mr': '',
+    },
+    '5quw3qh1': {
+      'en': 'Password',
+      'hi': '',
+      'mr': '',
+    },
+    'aq7rk9mj': {
+      'en': 'C-Password',
+      'hi': '',
+      'mr': '',
+    },
+    'm3ga8ceu': {
+      'en': 'Create Account',
+      'hi': '',
+      'mr': '',
+    },
+    'lu09c555': {
+      'en': 'Sign in',
+      'hi': '',
+      'mr': '',
+    },
+    'am0b749b': {
+      'en': 'Home',
+      'hi': '',
+      'mr': '',
+    },
+  },
+  // callhistory
+  {
+    '2rympur8': {
+      'en': 'Your recent conversations',
+      'hi': '',
+      'mr': '',
+    },
+    'f8xxxi81': {
+      'en': 'Sarah Johnson',
+      'hi': '',
+      'mr': '',
+    },
+    'vrzp7gm8': {
+      'en': 'Excited',
+      'hi': '',
+      'mr': '',
+    },
+    'my5cfk5m': {
+      'en': 'Yesterday, 3:45 PM',
+      'hi': '',
+      'mr': '',
+    },
+    'i3ahf7gw': {
+      'en': '\"\\\"Sarah',
+      'hi': '',
+      'mr': '',
+    },
+    'jv5v28or': {
+      'en': 'Michael Chen',
+      'hi': '',
+      'mr': '',
+    },
+    'p9xfihlv': {
+      'en': 'Concerned',
+      'hi': '',
+      'mr': '',
+    },
+    'q5vanlc9': {
+      'en': 'Jan 15, 2:20 PM',
+      'hi': '',
+      'mr': '',
+    },
+    '2vdt6j4x': {
+      'en': '\"\\\"Michael',
+      'hi': '',
+      'mr': '',
+    },
+    '8lnmtz00': {
+      'en': 'Emily Rodriguez',
+      'hi': '',
+      'mr': '',
+    },
+    'nzewtfr0': {
+      'en': 'Frustrated',
+      'hi': '',
+      'mr': '',
+    },
+    'mtqqvv57': {
+      'en': 'Jan 12, 11:05 AM',
+      'hi': '',
+      'mr': '',
+    },
+    '37j0sfbi': {
+      'en': '\"\\\"Emily',
+      'hi': '',
+      'mr': '',
+    },
+    'b3m95cxq': {
+      'en': 'David Wilson',
+      'hi': '',
+      'mr': '',
+    },
+    '2p7zlmp5': {
+      'en': 'Calm',
+      'hi': '',
+      'mr': '',
+    },
+    'o9qabh1r': {
+      'en': 'Jan 10, 9:15 AM',
+      'hi': '',
+      'mr': '',
+    },
+    'etpty27f': {
+      'en': '\"\\\"David',
+      'hi': '',
+      'mr': '',
+    },
+    '5juofi3d': {
+      'en': 'Call History',
+      'hi': '',
+      'mr': '',
+    },
+  },
+  // historypage
+  {
+    'zpnrds6l': {
+      'en': 'Call Analysis',
+      'hi': '',
+      'mr': '',
+    },
+    'n366xt6h': {
+      'en': 'Logout',
+      'hi': '',
+      'mr': '',
+    },
+    'd1tzv4ul': {
+      'en': 'Call Transcript',
+      'hi': 'कॉल ट्रांसक्रिप्ट',
+      'mr': 'कॉल ट्रान्सक्रिप्ट',
+    },
+    'fw0w281d': {
+      'en': 'Dominant Emotions',
+      'hi': 'प्रबल भावनाएँ',
+      'mr': 'प्रभावी भावना',
+    },
+    '6ndo70vb': {
       'en': 'Executive Suggestions',
       'hi': 'कार्यकारी सुझाव',
       'mr': 'कार्यकारी सूचना',

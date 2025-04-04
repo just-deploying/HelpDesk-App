@@ -1,7 +1,7 @@
+import '/auth/supabase_auth/auth_util.dart';
 import '/backend/api_requests/api_calls.dart';
 import '/backend/gemini/gemini.dart';
 import '/backend/supabase/supabase.dart';
-import '/flutter_flow/flutter_flow_icon_button.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
@@ -65,20 +65,6 @@ class _UploadpageWidgetState extends State<UploadpageWidget> {
         appBar: AppBar(
           backgroundColor: FlutterFlowTheme.of(context).primary,
           automaticallyImplyLeading: false,
-          leading: FlutterFlowIconButton(
-            borderColor: Colors.transparent,
-            borderRadius: 30.0,
-            borderWidth: 1.0,
-            buttonSize: 60.0,
-            icon: Icon(
-              Icons.arrow_back_rounded,
-              color: Colors.white,
-              size: 30.0,
-            ),
-            onPressed: () async {
-              context.pop();
-            },
-          ),
           title: Text(
             FFLocalizations.of(context).getText(
               'e3182w2g' /* Upload */,
@@ -90,7 +76,54 @@ class _UploadpageWidgetState extends State<UploadpageWidget> {
                   letterSpacing: 0.0,
                 ),
           ),
-          actions: [],
+          actions: [
+            Padding(
+              padding: EdgeInsets.all(6.0),
+              child: FFButtonWidget(
+                onPressed: () async {
+                  GoRouter.of(context).prepareAuthEvent();
+                  await authManager.signOut();
+                  GoRouter.of(context).clearRedirectLocation();
+
+                  context.goNamedAuth(
+                      LoginpageWidget.routeName, context.mounted);
+                },
+                text: FFLocalizations.of(context).getText(
+                  'l4rwv36s' /* Logout */,
+                ),
+                icon: Icon(
+                  Icons.logout,
+                  color: FlutterFlowTheme.of(context).info,
+                  size: 20.0,
+                ),
+                options: FFButtonOptions(
+                  height: 40.0,
+                  padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 16.0, 0.0),
+                  iconAlignment: IconAlignment.end,
+                  iconPadding: EdgeInsets.all(0.0),
+                  color: FlutterFlowTheme.of(context).error,
+                  textStyle: FlutterFlowTheme.of(context).titleSmall.override(
+                    fontFamily: 'Inter Tight',
+                    color: Colors.white,
+                    letterSpacing: 0.0,
+                    shadows: [
+                      Shadow(
+                        color: FlutterFlowTheme.of(context).secondaryText,
+                        offset: Offset(2.0, 2.0),
+                        blurRadius: 3.0,
+                      )
+                    ],
+                  ),
+                  borderSide: BorderSide(
+                    color: FlutterFlowTheme.of(context).error,
+                    width: 1.0,
+                  ),
+                  borderRadius: BorderRadius.circular(14.0),
+                  hoverColor: FlutterFlowTheme.of(context).secondary,
+                ),
+              ),
+            ),
+          ],
           centerTitle: true,
           elevation: 2.0,
         ),
@@ -299,6 +332,45 @@ class _UploadpageWidgetState extends State<UploadpageWidget> {
                               ].divide(SizedBox(height: 20.0)),
                             ),
                           ),
+                        ),
+                      ),
+                      Text(
+                        FFLocalizations.of(context).getText(
+                          '5ngzqkfu' /* OR */,
+                        ),
+                        style: FlutterFlowTheme.of(context).titleLarge.override(
+                              fontFamily: 'Inter Tight',
+                              color: FlutterFlowTheme.of(context)
+                                  .primaryBackground,
+                              letterSpacing: 0.0,
+                            ),
+                      ),
+                      FFButtonWidget(
+                        onPressed: () async {
+                          context.pushNamed(CallhistoryWidget.routeName);
+                        },
+                        text: FFLocalizations.of(context).getText(
+                          'wc8wl5sc' /* View Call History */,
+                        ),
+                        options: FFButtonOptions(
+                          height: 40.0,
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              16.0, 0.0, 16.0, 0.0),
+                          iconPadding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 0.0, 0.0, 0.0),
+                          color: FlutterFlowTheme.of(context).accent1,
+                          textStyle:
+                              FlutterFlowTheme.of(context).titleSmall.override(
+                                    fontFamily: 'Inter Tight',
+                                    color: Colors.white,
+                                    letterSpacing: 0.0,
+                                  ),
+                          elevation: 0.0,
+                          borderSide: BorderSide(
+                            color:
+                                FlutterFlowTheme.of(context).primaryBackground,
+                          ),
+                          borderRadius: BorderRadius.circular(14.0),
                         ),
                       ),
                     ].divide(SizedBox(height: 24.0)),
