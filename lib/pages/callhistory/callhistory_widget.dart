@@ -89,6 +89,7 @@ class _CallhistoryWidgetState extends State<CallhistoryWidget> {
           child: SingleChildScrollView(
             child: Column(
               mainAxisSize: MainAxisSize.max,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Padding(
                   padding:
@@ -327,7 +328,7 @@ class _CallhistoryWidgetState extends State<CallhistoryWidget> {
                                         ).maybeHandleOverflow(
                                           maxChars: 15,
                                         ),
-                                        maxLines: 1,
+                                        maxLines: 2,
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
