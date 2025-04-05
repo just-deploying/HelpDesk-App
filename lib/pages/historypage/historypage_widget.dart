@@ -79,7 +79,7 @@ class _HistorypageWidgetState extends State<HistorypageWidget> {
             ),
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Inter Tight',
-                  color: FlutterFlowTheme.of(context).primaryBackground,
+                  color: FlutterFlowTheme.of(context).info,
                   fontSize: 24.0,
                   letterSpacing: 0.0,
                   fontWeight: FontWeight.bold,
